@@ -13,6 +13,7 @@ namespace C_Sharp_Exercise_2022._03._14_
             Console.WriteLine("請輸入數字：　");
             string num=Console.ReadLine();
             int x = Convert.ToInt32(num);
+
             if(x%2 != 0)
             {
                 Console.WriteLine("Weird");
