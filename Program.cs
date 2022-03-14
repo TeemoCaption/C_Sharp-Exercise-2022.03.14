@@ -8,17 +8,18 @@ namespace C_Sharp_Exercise_2022._03._14_
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.WriteLine("請輸入數字：　");
-            string num=Console.ReadLine();
-            int x = Convert.ToInt32(num);
+            string num = Console.ReadLine();
+            int x = int.Parse(num);
 
-            if(x%2 != 0)
+            if (x % 2 != 0)
             {
                 Console.WriteLine("Weird");
             }
-            else if (x%2 ==0 && x>=2 &&x<=5)
+            else if (x % 2 == 0 && x >= 2 && x <= 5)
             {
                 Console.WriteLine("Not Weird");
             }
@@ -26,7 +27,7 @@ namespace C_Sharp_Exercise_2022._03._14_
             {
                 Console.WriteLine("Weird");
             }
-            else if(x % 2 == 0)
+            else if (x % 2 == 0)
             {
                 Console.WriteLine("Not Weird");
             }
